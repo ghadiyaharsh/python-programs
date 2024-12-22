@@ -11,6 +11,7 @@ print(sum(list1))
 print(sorted(list1))
 
 
+
 #methods
 
 list_1=["arjun","ved","krish",23,678]
