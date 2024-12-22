@@ -1,4 +1,0 @@
-hi everyone
-  we are learning file
- using java.
- i like a programming
