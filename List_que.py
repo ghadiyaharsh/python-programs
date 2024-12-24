@@ -19,6 +19,8 @@ sample_list = ['abc', 'xyz', 'aba', '1221']
 
 # Call the function and print the result
 result = count_strings(sample_list)
-print("Expected Result:", result)
+print("Expected Result:", result)   
+
+#here output becomes 2 because here only string "aba"  is followed all conditions. we can see string 'aba' index[0]=index[-1], and length is 2.
 
 
