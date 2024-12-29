@@ -16,6 +16,9 @@ def count_strings(strings):
 
 # Sample List
 sample_list = ['abc', 'xyz', 'aba', '1221']
+'''here we an see string "aba" iss start with "a" and end with "a" means starting and ending 
+index contain same value and leangth of string is 2 which is satisfied by given condition'''
+
 
 # Call the function and print the result
 result = count_strings(sample_list)
