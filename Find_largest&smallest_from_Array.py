@@ -1,4 +1,4 @@
-print("hello this program is about find largest and smallest number from Array")
+#write a program to find largest and smallest number from array
 
 arr=[21,45,67,89,90,43]
 print(arr)
