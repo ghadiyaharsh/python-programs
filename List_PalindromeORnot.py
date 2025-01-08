@@ -11,4 +11,8 @@ def palindrome(x):
 list1 = [1, 4, 2]
 palindrome(list1)
 
-#if we want to take a list from use so we can take list1=int(input("Enter a List"))
+#if you want to take a list from user so we can take 
+list1 = input("Enter the list elements separated by spaces: ").split()
+print("Your list:", list1)
+
+
