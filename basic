@@ -1,0 +1,60 @@
+print("HELLO WORLD")
+
+
+2 Write a Python program to swap two variables using third variable. 
+a=10
+b=5
+print("value before swapping a=",a,"b=",b)
+c=a
+a=b
+b=c
+print("value after swapping a=",a,"b=",b)  
+
+
+3 Write a Python program to swap two variables without third variable
+a=10
+b=67
+a,b=b,a
+print("value after swapping a=",a,"b=",b)
+
+
+
+4 Write a Python program to find square root of positive number
+import math
+a=34
+print(math.sqrt(a))
+
+
+
+5 Write a Python program to find area of a rectangle and circle. 
+length=10
+print("lenght of rectangle is",length)
+width=20
+print("lenght of rectangle is",width)
+height=12
+print("lenght of rectangle is",height)
+print("area os rectangle is ",length*width*height)
+
+
+
+6 Write a Python program to find sum of n natural numbers without loop.
+n=int(input("enter the numebers"))
+sum= (n*(n+1)/2)
+print("sum of entered n numbers is:-",sum)
+
+
+
+7 Check various arithmetic operators of Python. 
+a=20
+b=10
+print("additon of a and b is ",a+b)
+print("subtraction of a and b is ",a-b)
+print("multiplication of a and b is",a*b)
+print("division of a and b is ",a/b)
+
+
+
+8 Write a Python program to check output of modulo operator. 
+a=30
+b=8
+print("a%b",a%b)
