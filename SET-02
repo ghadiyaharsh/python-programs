@@ -1,0 +1,100 @@
+#1 WAP to check whether entered number is even or odd.
+
+x=int(input("enter the number:"))
+if(x%2==0):
+    print("number is even")
+else:
+    print("number is odd")
+    
+#2 WAP to find whether entered number is positive, negative or zero.  
+
+A=int(input("enter the number:"))
+
+if(A>0):
+     print("number is positive")
+elif(A<0):
+           print("number is negetive")
+else:
+           print("number is zero")
+     
+ 
+#3 WAP to find roots of quadratic equations if roots are real.    
+import math
+
+a = float(input("Enter coefficient a: "))
+b = float(input("Enter coefficient b: "))
+c = float(input("Enter coefficient c: "))
+
+D = b**2 - 4*a*c
+
+if D >= 0:
+    root1 = (-b + math.sqrt(D)) / (2*a)
+    root2 = (-b - math.sqrt(D)) / (2*a)
+    print(f"The roots are real and are: {root1} and {root2}")
+else:
+    print("The roots are not real.")
+    
+#4 WAP to check whether entered character is vowel or consonant.    
+
+q = input("Enter the character: ")
+
+if q in ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'):
+    print("Character is a vowel")
+else:
+    print("Character is a consonant")
+
+
+#5 WAP to find maximum of three numbers (nested if-else).    
+'''a=92
+b=90
+c=45
+if a>b:
+    if a>c:
+        print("a is greater")
+    else:
+        print("c is greater")
+else:
+    if b>c:
+        print("b is greater")
+    else:
+        print("c is greater")'''
+        
+'''WAP to calculate the salary of an employee based on following conditions 
+(nested if-else): 
+1. if degree = B.E. and experience < 5 years, salary=30000 
+2. if degree = B.E. and experience >= 5 years, salary=40000 
+3. if degree = M.E. and experience < 5 years, salary=50000 
+4. if degree = M.E. and experience >= 5 years, salary= 60000'''
+
+
+degree = input("Enter the degree (B.E. or M.E.): ")
+experience = int(input("Enter the years of experience: "))
+
+if degree == "B.E.":
+    if experience < 5:
+        salary = 30000
+    else:
+        salary = 40000
+elif degree == "M.E.":
+    if experience < 5:
+        salary = 50000
+    else:
+        salary = 60000
+else:
+    salary = "Invalid degree"
+
+print("The salary of the employee is:",salary)
+
+
+#WAP to check whether entered input is character, digit or special symbol using ladder if-else.
+char=input("enter the charcter:")
+if char.isalpha():
+    print("character")
+elif(char.isdigit()):
+    print("digit")
+else:
+    char.isalnum()
+    print("special symbol") 
+
+    
+    
