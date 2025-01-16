@@ -1,10 +1,10 @@
 #write a program to implement functions and methods of List
 
-#functions
+#List functions
 
 list1=[23.12,65,231]
 
-print(len(list1))
+print(len(list1)) 
 print(max(list1))
 print(min(list1))
 print(sum(list1))
@@ -12,7 +12,7 @@ print(sorted(list1))
 
 
 
-#methods
+#list methods
 
 list_1=["arjun","ved","krish",23,678]
 list_1.remove("krish")        
