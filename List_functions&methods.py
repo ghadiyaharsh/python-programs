@@ -4,11 +4,11 @@
 
 list1=[23.12,65,231]
 
-print(len(list1)) 
-print(max(list1))
-print(min(list1))
-print(sum(list1))
-print(sorted(list1))
+print(len(list1)) #2
+print(max(list1)) #231
+print(min(list1)) #23.12
+print(sum(list1)) #319.12
+print(sorted(list1)) #23.12,65,231
 
 
 
