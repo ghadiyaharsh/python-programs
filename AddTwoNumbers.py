@@ -2,6 +2,7 @@
 num1=56
 num2=98
 print("Addition of num1 and num2 is:", num1+num2)
+#ans=num1+num2 we can take and print("addition is:-",ans)
 
 #number is taken from user and added
 num1=int(input("enter the number1:"))
