@@ -32,3 +32,15 @@ list2.append(list1)
 print(list2)
 
 
+#3 write a pyhton program to check the given list is palindrome or not.
+list1=[1,2,3,4,5,4,3,2,1]
+if list1==list1[::-1]:
+    print("list is palindrome")
+else:
+    print("list is not palindrome")
+    
+# 4 Write a python program to store strings in a list and then print them.
+list1=["hi","raj","jay","man"]
+print(list1)
+print(type(list1))
+
