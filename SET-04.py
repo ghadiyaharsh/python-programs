@@ -30,6 +30,8 @@ list1=[1,2,3,4,5]
 list2=[9,8,7,6,5]
 list2.append(list1)
 print(list2)
+list2.extend(list1)
+print(list2)
 
 
 #3 write a pyhton program to check the given list is palindrome or not.
