@@ -52,3 +52,11 @@ list1=["hi","raj","jay","man"]
 print(list1)
 print(type(list1))
 
+#5 write a python program to print a list of palindrome number using loop by N numbers
+n=int(input("enter the number:"))
+list1=[]
+for i in range(1,n+1):
+    if str(i)==str(i)[::-1]:
+        list1.append(i)
+        print(list1)
+        
