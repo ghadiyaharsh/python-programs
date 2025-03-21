@@ -46,3 +46,15 @@ list1=["hi","raj","jay","man"]
 print(list1)
 print(type(list1))
 
+
+#Write a python program to print list of prime numbers upto N using loop and else clause. 
+n=int(input("enter the number:"))
+for i in range(2,n+1):
+    for j in range(2,i):
+        if i%j==0:
+            break
+        else:
+            print(i)
+            break
+
+
