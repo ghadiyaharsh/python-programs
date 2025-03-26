@@ -59,4 +59,15 @@ for i in range(1,n+1):
     if str(i)==str(i)[::-1]:
         list1.append(i)
         print(list1)
+
+#5 write a python program to print a list of prime numbers upto N using loop and clauses.
+x = range(5)
+print(x)
+for i in x:
+    if i%2 == 0:
+        break
+    else:
+        print("prime number ",i)
+        
+
         
