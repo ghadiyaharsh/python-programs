@@ -1,6 +1,5 @@
 #write a pyhton program to implement the given list is a palindrome or not
 
-
 def palindrome(x):
     reversed_list = list(reversed(x))
     if x == reversed_list:
@@ -9,6 +8,7 @@ def palindrome(x):
         print("The given list is not a palindrome.")
 
 list1 = [1, 4, 2]
+#list2=[1,2,1] become palindrome
 palindrome(list1)
 
 #if you want to take a list from user so we can take 
