@@ -61,13 +61,27 @@ for i in range(1,n+1):
         print(list1)
 
 #5 write a python program to print a list of prime numbers upto N using loop and clauses.
-x = range(5)
-print(x)
-for i in x:
-    if i%2 == 0:
-        break
-    else:
-        print("prime number ",i)
-        
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+def print_primes_up_to_n(N):
+    primes = []
+    for num in range(2, N + 1):
+        if is_prime(num):
+            primes.append(num)
+    return primes
+
+# Input: N
+N = int(input("Enter a number: "))
+
+# Print the list of prime numbers up to N
+prime_numbers = print_primes_up_to_n(N)
+print(f"Prime numbers up to {N}: {prime_numbers}")
+
 
         
