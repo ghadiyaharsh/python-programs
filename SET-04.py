@@ -45,7 +45,7 @@ if list1==list1[::-1]:
 else:
     print("list is not palindrome")
 
-_________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________
     
 # 4 Write a python program to store strings in a list and then print them.
 list1=["hi","raj","jay","man"]
@@ -86,4 +86,17 @@ prime_numbers = print_primes_up_to_n(N)
 print(f"Prime numbers up to {N}: {prime_numbers}")
 
 
+#6 Write a python program to print the list of even numbers using loop and clauses.
+
+def is_even(num):
+    return num % 2 == 0
+
+def print_even_numbers_up_to_n(N):
+    even_numbers = []
+    
+    for num in range(1, N + 1):  # Loop from 1 to N
+        if is_even(num):
+            even_numbers.append(num)
+    return even_numbers
+    
         
